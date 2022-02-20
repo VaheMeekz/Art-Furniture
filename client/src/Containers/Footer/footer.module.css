@@ -1,0 +1,68 @@
+.footer{
+    width:100%;
+    /*background: #006909;*/
+    background-color: #63d471;
+    background-image: linear-gradient(315deg, #63d471 0%, #233329 74%);
+    /*padding: 0 20px;*/
+}
+
+.footerContent{
+    display: flex;
+    justify-content: space-around;
+}
+
+.contentBox{
+    width: 30%;
+    /*background: red;*/
+}
+
+.socIcons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.socialBox{
+    /*display: flex;*/
+}
+
+.socTitle{
+    color: white;
+}
+
+.fb:hover{
+    font-size: 20px;
+    color: #0673E7;
+    transition: 0.8s;
+}
+
+.inst:hover{
+    font-size: 20px;
+    /*color: #0673E7;*/
+    transition: 0.8s;
+    color:  #f53844;
+    /*color: linear-gradient(315deg, 0%, #f53844 74%);*/
+}
+
+.pinte:hover{
+    font-size: 20px;
+    color: darkred;
+    transition: 0.8s;
+}
+
+.footerCategories{
+    color: white;
+    cursor: pointer;
+}
+.footerCategories:hover{
+    color: blanchedalmond;
+}
+
+.copyBox{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.copy{
+    margin-top: 20px;
+}
